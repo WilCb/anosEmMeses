@@ -1,10 +1,10 @@
 const calcular = document.getElementById('btn');
-const numero = document.getElementById('numero');
+const valor = document.getElementById('valor');
 var resultado = document.getElementById('resultado');
-numero.focus()
+valor.focus()
 calcular.addEventListener('click', function() {
     
-    var calculo = Number(numero.value) * 12;
+    var calculo = Number(valor.value) * 12;
     resultado.innerHTML = calculo;
 })
 

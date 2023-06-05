@@ -7,45 +7,52 @@
     font-family: 'Josefi', sans-serif;
     
 }
-div {
+.principal {
+    color: blue;
+    font-size: 18px;
     text-align: center;
-    margin: 250px;
+}
+.titulo {
+    text-align: center;
+    margin: 30px;
+    text-decoration-line:underline;
+
     
 }
-p {
+.titulo p {
     color: blue;
-    font-size: 22px;
+    font-size: 30px;
 }
-button p {
-    color: white;
-    background: blue;
-    font-size: 15px;
-}
-div button p {
-    margin: ;
-}
-button {
-    padding: 3% 3% 3% 3%;
+/*botão*/
+#btn {
+    position: relative;
+    padding: 5px;
     background: blue;
     border-radius: 10px;
     transition: 2s;
     transform: 2s;
 }
-button p:hover {
-    font-size: 22px;
+#btn p {
+    color: white;
+    background: blue;
+    font-size: 15px;
 }
-input {
+#btn p:hover {
+    font-size: 18px;
+}
+/*input*/
+#valor {
     background: white;
+    width: 130px;
     padding: 5px;
+    text-align: center;
 }
-
-#resultado {
-    margin: 20px;
-}
-
 @media screen and (max-width: 480px) {
-    div {
-        margin: 20%;
-    }
+    .principal, .titulo, p, #btn{
+        text-align: center;
+        width: auto;
+    } 
+   
+    
 
 }
