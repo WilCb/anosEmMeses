@@ -21,8 +21,10 @@ button p {
     background: blue;
     font-size: 15px;
 }
+div button p {
+    margin: ;
+}
 button {
-    margin-top: 30px;
     padding: 3% 3% 3% 3%;
     background: blue;
     border-radius: 10px;
@@ -35,4 +37,15 @@ button p:hover {
 input {
     background: white;
     padding: 5px;
+}
+
+#resultado {
+    margin: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    div {
+        margin: 20%;
+    }
+
 }
