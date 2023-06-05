@@ -47,6 +47,10 @@
     padding: 5px;
     text-align: center;
 }
+.copyright {
+    font-size: 10px;
+    text-align: center;
+}
 @media screen and (max-width: 480px) {
     .principal, .titulo, p, #btn{
         text-align: center;
