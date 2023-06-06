@@ -5,23 +5,20 @@
     padding: 0;
     background: lightgrey;
     font-family: 'Josefi', sans-serif;
+    text-align: center;
+    color: blue;
     
 }
 .principal {
-    color: blue;
-    font-size: 18px;
-    text-align: center;
+    margin-top: 15%;
+    font-weight: bold;
 }
-.titulo {
-    text-align: center;
+.secundaria {
     margin: 30px;
-    text-decoration-line:underline;
-
-    
 }
-.titulo p {
-    color: blue;
-    font-size: 30px;
+.texto-resultado {
+    margin-top: 30px;
+    font-size: 18px;
 }
 /*botão*/
 #btn {
@@ -45,18 +42,36 @@
     background: white;
     width: 130px;
     padding: 5px;
-    text-align: center;
+}
+footer {
+    position: relative;
+    display: inline-block;
+}
+.instagram {
+    width: 20px;
+    margin-top: 50px;
+}
+.github, .linkedin {
+    width: 20px;  
 }
 .copyright {
+    color: black;
     font-size: 10px;
-    text-align: center;
+    text-align: center;   
 }
 @media screen and (max-width: 480px) {
     .principal, .titulo, p, #btn{
-        text-align: center;
         width: auto;
-    } 
-   
-    
-
+    }
+    .instagram {
+        display: inline-block;
+        position: relative;
+        width: 20px;
+    }
+    .github, .linkedin {
+        margin: 0 0 0 5%;
+        display: inline-block;
+        position: relative;
+        width: 20px;
+    }
 }
