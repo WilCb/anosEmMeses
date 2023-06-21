@@ -3,7 +3,6 @@
 *{  
     margin: 0;
     padding: 0;
-    background: lightgrey;
     font-family: 'Josefi', sans-serif;
     text-align: center;
     color: blue;
@@ -38,6 +37,8 @@
     margin-top: 20px;
     font-size: 15px;
 }
+body {
+    background: linear-gradient(90deg, rgba(154, 174, 186, 0.81), rgb(159, 67, 67));}
 .principal {
     margin-top: 15%;
     font-weight: bold;
@@ -58,6 +59,7 @@
     border-radius: 10px;
     transition: 2s;
     transform: 2s;
+    cursor: pointer;
 }
 #btn p {
     color: white;
@@ -65,25 +67,37 @@
     font-size: 15px;
 }
 #btn p:hover {
-    font-size: 18px;
+    font-size: 16px;
+    color: yellow;
 }
 /*input*/
 #valor {
     background: white;
     width: 130px;
     padding: 5px;
+    border-radius: 5px;
+}
+.texto-resultado {
+    margin: 20px ;
+}
+#resultado {
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background: white;
+
+}
+.meses {
+    margin: 10px;
+    
 }
 /*Rodapé*/
 footer {
     position: relative;
     display: inline-block;
 }
-.instagram {
-    width: 20px;
-    margin-top: 50px;
-}
-.github, .linkedin {
-    width: 20px;  
+.github, .linkedin, .instagram {
+    width: 30px;  
 }
 .copyright {
     color: black;
