@@ -17,9 +17,14 @@
 .rodape {
     height: 150px;
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     justify-content: flex-end;
 }
+.rodape-menu {
+    display: flex;
+    justify-content: center;
+}
+
 
 /* ------FIM------ */
 
