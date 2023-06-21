@@ -1,10 +1,26 @@
+/* cabeçalho */
+
 .cabecalho-principal .container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
 }
+
 .container .cabecalho-menu {
     display: flex;
 }
+
+/* ------FIM------ */
+
+/* rodapé */
+.rodape {
+    height: 150px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+}
+
+/* ------FIM------ */
+
 

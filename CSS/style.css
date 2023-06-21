@@ -92,10 +92,6 @@ body {
     
 }
 /*Rodapé*/
-footer {
-    position: relative;
-    display: inline-block;
-}
 .github, .linkedin, .instagram {
     width: 30px;  
 }
