@@ -7,6 +7,36 @@
     font-family: 'Josefi', sans-serif;
     text-align: center;
     color: blue;
+    text-decoration: none;
+    list-style: none;
+}
+/* cabeçalho */
+
+.container .btn-link {
+    margin-top: 30px;
+    margin-right: 10px;
+    padding: 5px;
+    background-color: blue;
+    border-radius: 10px;
+ 
+    transform: 20s;
+}
+.link {
+    color: white;
+    background: blue;
+    font-size: 12px;
+}
+.link:hover {
+    font-size: 13px;
+    transition: 1s;
+
+}
+
+/* fim cabeçalho */
+.texto-explicativo {
+    color: black;
+    margin-top: 20px;
+    font-size: 15px;
 }
 .principal {
     margin-top: 15%;
@@ -16,7 +46,8 @@
     margin: 30px;
 }
 .texto-resultado {
-    margin-top: 30px;
+    
+    margin: 30px;
     font-size: 18px;
 }
 /*botão*/

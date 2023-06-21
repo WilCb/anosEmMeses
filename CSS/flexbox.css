@@ -1,0 +1,10 @@
+.cabecalho-principal .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.container .cabecalho-menu {
+    display: flex;
+}
+
